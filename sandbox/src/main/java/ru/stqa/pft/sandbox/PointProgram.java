@@ -6,23 +6,21 @@ package ru.stqa.pft.sandbox;
 public class PointProgram {
 
   public static void main (String[] args){
-    Point p1 = new Point();
-    Point p2 = new Point();
-    p1.x=5;
-    p1.y=2;
-    p2.x=5;
-    p2.y=2;
+    Point p1 = new Point(10,20);
+    Point p2 = new Point(20,40);
+    p1.x=10;
+    p1.y=20;
+    p2.x=20;
+    p2.y=40;
 
-    System.out.println("Rasstoyanie mejdu tochkami = " + distance(p1,p2) );
+    System.out.println("p1 = " + p1.x + "," +p1.y);
+    System.out.println("p2 = " + p2.x + "," +p2.y);
+    System.out.println("Rasstoyanie mejdu tochkami ravno "+ p1.distance(p2));
+
   }
 
-    public static double distance (Point p1,Point p2){
-      double x = p2.x-p1.x;
-      double y = p2.y-p1.y;
-     return Math.sqrt((x*x)+(y*y));
 
-    }
+  }
 
-    }
 
 
