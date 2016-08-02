@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ch.racic.selenium:selenium-driver-helper:2.45.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.racic.selenium/selenium-driver-helper/2.45.0/6cd49a46abb6e8b3f373ec52ed17e9574480c559/selenium-driver-helper-2.45.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/ch.racic.selenium/selenium-driver-helper/2.45.0/1475bdaed4c6ab02da8109eea6912a3fee628bb9/selenium-driver-helper-2.45.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
