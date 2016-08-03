@@ -5,7 +5,8 @@ repositories {
 }
 def var = dependencies{
     compile 'org.testng:testng:6.9.10'
-    compile 'ch.racic.selenium:selenium-driver-helper:2.45.0'
+    compile 'org.seleniumhq.selenium:selenium-java:2.53.1'
+
 
 }
 
