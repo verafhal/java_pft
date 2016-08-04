@@ -16,6 +16,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/java_pft$CreateNewUsertest.coverage" NAME="CreateNewUsertest Coverage Results" MODIFIED="1470328864880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -75,17 +78,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CreateNewUser.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/CreateNewUser.java">
+      <file leaf-file-name="CreateNewUsertest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/CreateNewUsertest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4555556">
-              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.5777778">
+              <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1514#1515#0" expanded="true" />
-                <element signature="e#1601#1602#0" expanded="true" />
-                <element signature="e#2533#2534#0" expanded="true" />
-                <element signature="e#2591#2592#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -848,6 +847,7 @@
         <option value="$PROJECT_DIR$/addressbook-web-tests/build.gradle" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/CreateNewGroup.java" />
         <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/CreateNewUser.java" />
+        <option value="$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/CreateNewUsertest.java" />
       </list>
     </option>
   </component>
@@ -1081,7 +1081,7 @@
       <recent name="ru.stqa.pft.sandbox" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CreateNewUser">
+  <component name="RunManager" selected="TestNG.CreateNewUsertest">
     <configuration default="false" name="MyFirstProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.MyFirstProgram" />
@@ -1095,39 +1095,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="sandbox" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="SquareTests" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="ru.stqa.pft.sandbox.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="sandbox" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" value="ru.stqa.pft.sandbox" />
-      <option name="MAIN_CLASS_NAME" value="ru.stqa.pft.sandbox.SquareTests" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
     <configuration default="false" name="PointProgram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -1191,6 +1158,34 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
       <option name="MAIN_CLASS_NAME" value="CreateNewUser" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="false" name="CreateNewUsertest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="addressbook-web-tests" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" value="ru.stqa.pft.addressbook" />
+      <option name="MAIN_CLASS_NAME" value="CreateNewUsertest" />
       <option name="METHOD_NAME" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
@@ -1469,18 +1464,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.MyFirstProgram" />
-      <item index="1" class="java.lang.String" itemvalue="TestNG.SquareTests" />
-      <item index="2" class="java.lang.String" itemvalue="Application.PointProgram" />
-      <item index="3" class="java.lang.String" itemvalue="TestNG.CreateNewGroup" />
-      <item index="4" class="java.lang.String" itemvalue="TestNG.CreateNewUser" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PointProgram" />
+      <item index="2" class="java.lang.String" itemvalue="TestNG.CreateNewGroup" />
+      <item index="3" class="java.lang.String" itemvalue="TestNG.CreateNewUser" />
+      <item index="4" class="java.lang.String" itemvalue="TestNG.CreateNewUsertest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="TestNG.CreateNewUser" />
-        <item index="1" class="java.lang.String" itemvalue="TestNG.CreateNewGroup" />
-        <item index="2" class="java.lang.String" itemvalue="Application.PointProgram" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MyFirstProgram" />
-        <item index="4" class="java.lang.String" itemvalue="TestNG.SquareTests" />
+        <item index="0" class="java.lang.String" itemvalue="TestNG.CreateNewUsertest" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.CreateNewUser" />
+        <item index="2" class="java.lang.String" itemvalue="TestNG.CreateNewGroup" />
+        <item index="3" class="java.lang.String" itemvalue="Application.PointProgram" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MyFirstProgram" />
       </list>
     </recent_temporary>
   </component>
@@ -1498,24 +1493,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CreateNewGroup - 2016.08.03 at 21h 05m 57s.xml">
-      <configuration name="CreateNewGroup" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateNewGroup - 2016.08.03 at 22h 23m 07s.xml">
-      <configuration name="CreateNewGroup" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateNewGroup - 2016.08.03 at 22h 27m 41s.xml">
-      <configuration name="CreateNewGroup" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateNewGroup - 2016.08.03 at 22h 38m 29s.xml">
-      <configuration name="CreateNewGroup" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateNewUser - 2016.08.03 at 22h 39m 16s.xml">
-      <configuration name="CreateNewUser" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CreateNewUser - 2016.08.03 at 22h 55m 04s.xml">
-      <configuration name="CreateNewUser" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CreateNewUser - 2016.08.03 at 22h 55m 38s.xml">
       <configuration name="CreateNewUser" configurationId="TestNG" />
     </history-entry>
@@ -1528,10 +1505,28 @@
     <history-entry file="CreateNewUser - 2016.08.03 at 22h 59m 35s.xml">
       <configuration name="CreateNewUser" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="CreateNewUser - 2016.08.04 at 19h 36m 38s.xml">
+      <configuration name="CreateNewUser" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateNewUsertest - 2016.08.04 at 19h 38m 51s.xml">
+      <configuration name="CreateNewUsertest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateNewUsertest - 2016.08.04 at 19h 39m 05s.xml">
+      <configuration name="CreateNewUsertest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateNewUsertest - 2016.08.04 at 19h 39m 49s.xml">
+      <configuration name="CreateNewUsertest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateNewUsertest - 2016.08.04 at 19h 40m 29s.xml">
+      <configuration name="CreateNewUsertest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateNewUsertest - 2016.08.04 at 19h 41m 05s.xml">
+      <configuration name="CreateNewUsertest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="16" y="20" width="1332" height="688" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1540,7 +1535,8 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871974" sideWeight="0.50303954" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871974" sideWeight="0.4969605" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32871974" sideWeight="0.4969605" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2218845" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1814,16 +1810,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/CreateNewUser.java">
+    <entry file="file://$PROJECT_DIR$/addressbook-web-tests/src/test/java/ru/stqa/pft/addressbook/CreateNewUsertest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4555556">
-          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.5777778">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1514#1515#0" expanded="true" />
-            <element signature="e#1601#1602#0" expanded="true" />
-            <element signature="e#2533#2534#0" expanded="true" />
-            <element signature="e#2591#2592#0" expanded="true" />
           </folding>
         </state>
       </provider>
