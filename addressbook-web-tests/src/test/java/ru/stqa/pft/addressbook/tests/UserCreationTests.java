@@ -1,6 +1,5 @@
-package ru.stqa.pft.addressbook;
+package ru.stqa.pft.addressbook.tests;
 
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 public class UserCreationTests extends TestBase {
@@ -8,9 +7,9 @@ public class UserCreationTests extends TestBase {
     @Test
     public void UserCreationTests() {
 
-        gotoUserPage();
-        fillUserForm();
-        saveUser();
+        app.gotoUserPage();
+        app.fillUserForm();
+        app.saveUser();
     }
 
 
