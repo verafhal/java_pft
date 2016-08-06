@@ -6,25 +6,20 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 /**
  * Created by Marom on 06/08/2016.
  */
-public class UserHelper {
-  private FirefoxDriver wd;
+public class UserHelper extends HelperBase {
+
 
   public UserHelper(FirefoxDriver wd) {
-    this.wd = wd;
+    super(wd);
   }
-  public void fillUserForm() {
-    wd.findElement(By.name("firstname")).click();
-    wd.findElement(By.name("firstname")).clear();
-    wd.findElement(By.name("firstname")).sendKeys("vera");
-    wd.findElement(By.name("lastname")).click();
-    wd.findElement(By.name("lastname")).clear();
-    wd.findElement(By.name("lastname")).sendKeys("fhal");
-    wd.findElement(By.name("home")).click();
-    wd.findElement(By.name("home")).clear();
-    wd.findElement(By.name("home")).sendKeys("055555555");
+  public void fillUserForm(String name, String familyname, String phonenumber) {
+
+    type (By.name("firstname"),name);
+    type (By.name("lastname"),familyname);
+    type (By.name("home"),phonenumber);
   }
   public void saveUser()
-  {wd.findElement(By.xpath("//div[@id='content']/form/input[21]")).click();
+  {click(By.xpath("//div[@id='content']/form/input[21]"));
   }
 
   }
