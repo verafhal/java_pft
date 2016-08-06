@@ -7,10 +7,9 @@ public class UserCreationTests extends TestBase {
     @Test
     public void UserCreationTests() {
 
-        app.gotoUserPage();
-        app.fillUserForm();
-        app.saveUser();
+        app.getNavigationHelper().gotoUserPage();
+        app.getUserHelper().fillUserForm();
+        app.getUserHelper().saveUser();
     }
-
 
 }

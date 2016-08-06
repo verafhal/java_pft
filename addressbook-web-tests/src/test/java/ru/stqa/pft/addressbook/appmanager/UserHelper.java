@@ -27,8 +27,5 @@ public class UserHelper {
   {wd.findElement(By.xpath("//div[@id='content']/form/input[21]")).click();
   }
 
-
-  public void gotoUserPage() {
-    wd.findElement(By.linkText("ההערה")).click();
   }
-}
+
