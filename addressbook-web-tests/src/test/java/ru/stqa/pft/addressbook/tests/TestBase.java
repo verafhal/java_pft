@@ -13,7 +13,7 @@ public class TestBase {
   protected final ApplicationManager app;
 
   public TestBase() {
-    app = new ApplicationManager(BrowserType.IE);
+    app = new ApplicationManager(BrowserType.CHROME);
   }
 
   @BeforeMethod
