@@ -7,12 +7,14 @@ public class UserData {
   private final String name;
   private final String familyname ;
   private final String phonenumber;
+  private String group;
 
-  public UserData(String name, String familyname, String phonenumber) {
+  public UserData(String name, String familyname, String phonenumber,String group) {
     this.name = name;
     this.familyname = familyname;
     this.phonenumber = phonenumber;
 
+    this.group = group;
   }
 
   public String getName() {
@@ -25,6 +27,10 @@ public class UserData {
 
   public String getHome() {
     return phonenumber;
+  }
+
+  public String getGroup() {
+    return group;
   }
 }
 

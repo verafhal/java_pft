@@ -9,7 +9,7 @@ public class UserCreationTests extends TestBase {
     public void testUserCreation() {
 
         app.getNavigationHelper().gotoUserPage();
-        app.getUserHelper().fillUserForm(new UserData("vera", "fhal", "555555"));
+        app.getUserHelper().fillUserForm(new UserData("vera", "fhal", "555555","title1"),true);
         app.getUserHelper().saveUser();
     }
 
