@@ -11,7 +11,7 @@ public class UserModificationTests extends TestBase {
   @Test
 
   public void testUserModification() {
-    app.getNavigationHelper().gotoUserPage();
+    app.goTo().gotoUserPage();
     app.getUserHelper().fillUserForm(new UserData("vera", "fhal", "555555",null),false);
     app.getUserHelper().saveUser();
 
